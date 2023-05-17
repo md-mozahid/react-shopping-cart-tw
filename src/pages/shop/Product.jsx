@@ -12,7 +12,7 @@ const Product = ({ product }) => {
     <>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <div className="bg-slate-300 rounded-md px-2 py-2">
-          <a className="block relative h-48 rounded overflow-hidden">
+          <a className="block relative h-auto rounded overflow-hidden">
             <img
               className="object-cover object-center w-full block"
               src={productImage}
