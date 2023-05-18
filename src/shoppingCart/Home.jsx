@@ -4,7 +4,7 @@ import Image from '../assets/products/shopping-cart2.png'
 const Home = () => {
   return (
     <>
-      <section className="max-w-5xl mx-auto bg-sky-300 p-5">
+      <section className="max-w-5xl mx-auto bg-sky-300 p-5 h-screen">
         <div className="flex justify-around items-center">
           <div className="">
             <h1 className='text-3xl'>Shopping Cart</h1>
