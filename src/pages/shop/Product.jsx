@@ -14,7 +14,7 @@ const Product = ({ product }) => {
         <div className="bg-slate-300 rounded-md px-2 py-2">
           <a className="block relative h-auto rounded overflow-hidden">
             <img
-              className="object-cover object-center w-full block"
+              className="object-cover object-center w-52 block"
               src={productImage}
               alt="product image"
             />
@@ -31,7 +31,8 @@ const Product = ({ product }) => {
           <button
             className="btn btn-primary mt-4"
             onClick={() => addToCart(id)}>
-            Add to cart {cartItemAmount > 0 && <>{cartItemAmount}</>}
+            {/* Add to cart {cartItemAmount > 0 && <>{cartItemAmount}</>} */}
+            Add to cart
           </button>
         </div>
       </div>
